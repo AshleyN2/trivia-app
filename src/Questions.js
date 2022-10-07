@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react'
+import {useParams} from 'react-router-dom';
 
 
 const Questions = ({questions}) => {
+    
     
 
     function handleSubmit(event) {
@@ -10,11 +12,11 @@ const Questions = ({questions}) => {
 
       return(
         <div>
-            {questions.map(question=>(
+            {questions.map(question=> (
                 <div>
-                    <h2>
+                    <h3>
                         {question.question}
-                    </h2>
+                    </h3>
                 </div>
             ))}
         </div>

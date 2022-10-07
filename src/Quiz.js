@@ -3,6 +3,29 @@ import { useNavigate } from 'react-router-dom'
 import Questions from "./Questions";
 
 const Quiz = () => {
+  const [quiz,setQuiz]=useState({
+    amount: 10,
+    category: "computers",
+    difficulty: "easy",
+  });
+  
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const { amount, category, difficulty } = quiz;
+
+  const handleChange = (e) => {
+    const name = e.target.name;
+    const value = e.target.value;
+    setQuiz({ ...quiz, [name]: value });
+  };
+
+  
+  /*
+  const [category, setCategory]=useState('')
+  const [difficulty,setDifficulty]=useState('')
+  //questions.map(question=>console.log(question.category))
+  questions.map(question=>setCategory(question.category))
+*/
 
   const navigate=useNavigate()
   function handleClick(){
@@ -17,7 +40,7 @@ const Quiz = () => {
           backgroundColor: 'papayawhip',
           width:'100%'
         }}>
-          <form className="quizform" action="">
+          <form className="quizform" onSubmit={handleSubmit} action="">
             <h2>quiz selection</h2>
             <div className="form-control">
               <label className='question-label'>number of questions</label>
@@ -27,7 +50,7 @@ const Quiz = () => {
             <div className="category-control">
               <label className='category-label'>category</label>
               <select className="form-input">
-                <option value="comics">Computer</option>
+                <option value={quiz.category} onChange={handleChange}>Computer</option>
                 
               </select>
               <div className="form-control">
@@ -47,5 +70,5 @@ const Quiz = () => {
       </div>
     );
   };
-  
+}
   export default Quiz;
