@@ -1,19 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
+import Questions from "./Questions";
 
 const Quiz = () => {
-  const [questions, setQuestions] = useState([]);
 
-  // Add useEffect hook
-  useEffect(() => {
-    fetch("http://localhost:3000/questions")
-      .then((r) => r.json())
-      .then((questions) => {
-        setQuestions(questions);
-      });
-  }, []);
-  
-        
+  const navigate=useNavigate()
+  function handleClick(){
+    navigate(
+      '/questions'
+    )
+  }
   
     return (
         <div className="quiz"
@@ -43,7 +39,7 @@ const Quiz = () => {
                 <option value="hard">Hard</option>
               </select>
               </div>
-              <button type="submit" className="submit-btn">
+              <button type="submit" className="submit-btn" onClick={handleClick}>
                 start
               </button>
             </div>

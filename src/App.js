@@ -1,12 +1,24 @@
-import React from "react";
+import React, { useState, useEffect } from 'react'
 import {Routes, Route} from 'react-router-dom'
 import NavBar from "./NavBar";
 import Home from "./Home";
 import Guide from "./Guide";
 import Quiz from "./Quiz";
+import Questions from "./Questions";
 
 
 function App() {
+  const [questions, setQuestions] = useState([]);
+  
+    // Add useEffect hook
+    useEffect(() => {
+      fetch("https://opentdb.com/api.php?amount=10&category=18&difficulty=easy")
+        .then((r) => r.json())
+        .then((data) => {
+          setQuestions(data.results);
+        });
+    }, []);
+
   return (
     <div className="App">
       
@@ -15,7 +27,8 @@ function App() {
           <Route exact='true' path='/' element={<Home />} ></Route>
           <Route exact='true' path='/home' element={<Home />} ></Route>
           <Route exact='true' path='/guide' element={ <Guide />} ></Route>
-          <Route exact='true' path='/quiz' element={ <Quiz />} ></Route>
+          <Route exact='true' path='/quiz' element={ <Quiz questions={questions}/>} ></Route>
+          <Route exact='true' path='/questions' element={ <Questions questions={questions} />} ></Route>
       </Routes>
     </div>
   );
