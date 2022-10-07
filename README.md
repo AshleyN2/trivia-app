@@ -1,4 +1,19 @@
 # Getting Started with Create React App
+This is a simple REACT Trivia App focused on testing computer knowledge.
+The application intergrated the following components:
+* Home
+* NavBar
+* Guide
+* Quiz
+
+## Implemented the use of an external API;
+`https://opentdb.com/api.php?amount=10&category=18&difficulty=easy`
+
+
+## The Landing Page
+![Screenshot from 2022-10-07 12-20-46](https://user-images.githubusercontent.com/53012069/194520902-88637458-89c5-4b68-8032-87298a755a0c.png)
+## The Quiz Page
+![Screenshot from 2022-10-07 12-20-35](https://user-images.githubusercontent.com/53012069/194521054-40371cfe-33f3-4637-93c1-16f98883d589.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
