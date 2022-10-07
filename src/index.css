@@ -146,6 +146,16 @@ form-control {
   font-size: larger;
 }
 
+
+.guide h2{
+  font-style: italic;
+  font-weight: 700px;
+  font-size: xx-large;
+}
+.parguide{
+  font-weight: 700px;
+  font-size: larger;
+}
 /*
 body {
   margin: 0;
