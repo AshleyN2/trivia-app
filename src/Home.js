@@ -9,8 +9,6 @@ const Home = () => {
       backgroundRepeat: 'no-repeat',
       backgroundCover: 'cover',
       backgroundPosition: 'center',
-      width:'100%',
-      margin: ' 0 auto',
     }} >
       <div className='home-text'>
       <h1>Let's Get Quizzical!</h1> 

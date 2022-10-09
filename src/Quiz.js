@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import Questions from "./Questions";
 
 const Quiz = () => {
+  /*
   const [quiz,setQuiz]=useState({
     amount: 10,
     category: "computers",
@@ -18,6 +19,7 @@ const Quiz = () => {
     const value = e.target.value;
     setQuiz({ ...quiz, [name]: value });
   };
+  */
 
   
   /*
@@ -40,7 +42,7 @@ const Quiz = () => {
           backgroundColor: 'papayawhip',
           width:'100%'
         }}>
-          <form className="quizform" onSubmit={handleSubmit} action="">
+          <form className="quizform" action="">
             <h2>quiz selection</h2>
             <div className="form-control">
               <label className='question-label'>number of questions</label>
@@ -50,7 +52,7 @@ const Quiz = () => {
             <div className="category-control">
               <label className='category-label'>category</label>
               <select className="form-input">
-                <option value={quiz.category} onChange={handleChange}>Computer</option>
+                <option >Computer</option>
                 
               </select>
               <div className="form-control">
@@ -70,5 +72,5 @@ const Quiz = () => {
       </div>
     );
   };
-}
+
   export default Quiz;

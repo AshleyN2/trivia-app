@@ -57,7 +57,7 @@ body{
 /* NavBar */
 
 .navbar nav {
-    background-color: white;
+    background-color:white;
 }
 .navbar nav  ul{
     display: flex;
@@ -147,15 +147,32 @@ form-control {
 }
 
 
-.guide h2{
+.guide h1{
   font-style: italic;
-  font-weight: 700px;
-  font-size: xx-large;
+  font-weight: 900px;
+  font-size: 150%;
 }
 .parguide{
-  font-weight: 700px;
-  font-size: larger;
+  font-weight: 500px;
+  font-size: 200%;
+  height: 100%;
+
 }
+
+.guide{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  font-size: 120%;
+  font-style: italic;
+  padding: 0 25px;
+  color: black;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+ 
+}
+
 /*
 body {
   margin: 0;
