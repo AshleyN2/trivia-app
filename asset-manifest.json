@@ -1,0 +1,13 @@
+{
+  "main.css": "/trivia-app/static/css/main.1896417a.chunk.css",
+  "main.js": "/trivia-app/static/js/main.f13e2cd1.chunk.js",
+  "main.js.map": "/trivia-app/static/js/main.f13e2cd1.chunk.js.map",
+  "static/js/1.b51f3b9e.chunk.js": "/trivia-app/static/js/1.b51f3b9e.chunk.js",
+  "static/js/1.b51f3b9e.chunk.js.map": "/trivia-app/static/js/1.b51f3b9e.chunk.js.map",
+  "runtime~main.js": "/trivia-app/static/js/runtime~main.a66daceb.js",
+  "runtime~main.js.map": "/trivia-app/static/js/runtime~main.a66daceb.js.map",
+  "static/css/main.1896417a.chunk.css.map": "/trivia-app/static/css/main.1896417a.chunk.css.map",
+  "index.html": "/trivia-app/index.html",
+  "precache-manifest.5f9fea27bf109bdb21a2ded868938894.js": "/trivia-app/precache-manifest.5f9fea27bf109bdb21a2ded868938894.js",
+  "service-worker.js": "/trivia-app/service-worker.js"
+}
