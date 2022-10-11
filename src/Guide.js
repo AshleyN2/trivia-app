@@ -15,7 +15,10 @@ const Guide = () => {
                     This quiz tests on general computer knowledge.
                 </li>
                 <li>
-                    As a player you can select the number of questions and level of difficulty.
+                    As a player you will get 10 random questions to brainstorm on.
+                </li>
+                <li>
+                    You can select the level of difficulty.
                 </li>
                 <li>
                     Are you ready? Select 'Quiz' on the menu start!

@@ -193,6 +193,19 @@ form-control {
   font-stretch: expanded;
 }
 
+.questions{
+  font-family: 'Playfair Display', cursive;
+  font-style:italic;
+  font-size:x-large;
+  margin-left: 5%;
+  margin-top: 5%;
+  font-stretch: expanded;
+  height: 10%;
+  background-color: rgba(255, 166, 0, 0.733);
+  margin: 40px 10px;
+  padding: 10px 25px;
+}
+
 /*
 .guide-list{
   text-decoration: none;

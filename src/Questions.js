@@ -11,12 +11,12 @@ const Questions = ({questions}) => {
       }
 
       return(
-        <div>
+        <div className='questions'>
             {questions.map(question=> (
                 <div>
-                    <h3>
+                    <li>
                         {question.question}
-                    </h3>
+                    </li>
                 </div>
             ))}
         </div>

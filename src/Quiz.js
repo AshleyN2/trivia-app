@@ -45,8 +45,9 @@ const Quiz = () => {
           <form className="quizform" action="">
             <h2>quiz selection</h2>
             <div className="form-control">
+              {/*}
               <label className='question-label'>number of questions</label>
-              <input type="number" className="form-input" min={1} max={50}/>
+      <input type="number" className="form-input" min={1} max={50}/>*/}
             </div>
             {/* {category} */}
             <div className="category-control">
