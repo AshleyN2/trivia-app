@@ -11,9 +11,18 @@ The application intergrated the following components:
 
 
 ## The Landing Page
-![Screenshot from 2022-10-07 12-20-46](https://user-images.githubusercontent.com/53012069/194520902-88637458-89c5-4b68-8032-87298a755a0c.png)
-## The Quiz Page
-![Screenshot from 2022-10-07 12-20-35](https://user-images.githubusercontent.com/53012069/194521054-40371cfe-33f3-4637-93c1-16f98883d589.png)
+![Screenshot from 2022-10-11 11-22-35](https://user-images.githubusercontent.com/53012069/195038414-a1c60ee6-e74b-4953-81e4-196d2c1ce8a6.png)
+
+## The Guide Page
+![Screenshot from 2022-10-11 11-24-37](https://user-images.githubusercontent.com/53012069/195038547-ed15d258-eead-4024-9379-f8d1a8e32380.png)
+
+## The Quiz Selection Page
+![Screenshot from 2022-10-11 11-22-49](https://user-images.githubusercontent.com/53012069/195038610-c7ab5cfd-5848-4f21-b0f8-99946282e28d.png)
+
+## The Quiz 
+![Screenshot from 2022-10-11 11-22-59](https://user-images.githubusercontent.com/53012069/195038663-891927c9-e74d-4000-8d11-9d0922b33c6e.png)
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
