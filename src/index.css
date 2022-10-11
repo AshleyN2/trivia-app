@@ -21,22 +21,29 @@ body{
      
 }
 
+
 .home-text{ 
     display: flex;
     flex-direction:column;
     align-items: center;
     justify-content: center;
     height: 40%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(255, 166, 0, 0.527);
     margin: 25px 0;
     padding: 0 25px;
-
+    border-style:ridge;
 }
+
+
+@keyframes mymove {
+  50% {font: 40px bold;}
+}
+
 
 .home h1 {
     font-size: 60px;
-    font-family:'Kaushan Script', cursive;
-    color:yellow;
+    font-family: 'Brush Script MT', cursive;
+    font-style: italic;
     text-align:center;
     text-transform:capitalize;
    
@@ -51,9 +58,9 @@ body{
 .home p{
     font-family: 'Playfair Display', cursive; 
     font-style: italic;
-    color: yellow;
+    color: black;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 /* NavBar */
@@ -175,14 +182,15 @@ form-control {
   font-size: 250%;
   margin-left: 2%;
   text-decoration: underline;
-  color: white;
+  color:goldenrod;
 }
 .guide-list{
   margin-left: 5%;
-  color: white;
+  color:goldenrod;
   font-family: 'Playfair Display', cursive; 
-  font-style: italic;
   font-size: x-large;
+  font-style: oblique;
+  font-stretch: expanded;
 }
 
 /*

@@ -12,10 +12,13 @@ const Guide = () => {
             <h1>How It Works</h1>
             <section className='guide-list'>
                 <li>
-                    The Trivia tests your knowledge on Computers   
+                    This quiz tests on general computer knowledge.
                 </li>
                 <li>
-                    Two
+                    As a player you can select the number of questions and level of difficulty.
+                </li>
+                <li>
+                    Are you ready? Select 'Quiz' on the menu start!
                 </li>
             </section>   
             </div>
