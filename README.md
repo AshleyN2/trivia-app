@@ -20,6 +20,9 @@ The application intergrated the following components:
 ![Screenshot from 2022-10-11 11-22-49](https://user-images.githubusercontent.com/53012069/195038610-c7ab5cfd-5848-4f21-b0f8-99946282e28d.png)
 
 ## The Quiz 
+
+![Screenshot from 2022-10-11 11-33-13](https://user-images.githubusercontent.com/53012069/195040311-39adfcd6-1967-4f05-83c6-01d17eff928d.png)
+
 ![Screenshot from 2022-10-11 11-22-59](https://user-images.githubusercontent.com/53012069/195038663-891927c9-e74d-4000-8d11-9d0922b33c6e.png)
 
 
