@@ -8,7 +8,7 @@ The application intergrated the following components:
 
 ## Deployed Link
 * `GitHub pages live link` : https://ashleyn2.github.io/trivia-app/  {Click on Home}
-* `Netlify` : https://computer-trivia-app.netlify.app/
+
 
 ## Implemented the use of an external API;
 `https://opentdb.com/api.php?amount=10&category=18&difficulty=easy`
