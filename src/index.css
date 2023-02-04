@@ -12,6 +12,9 @@ body{
 }
 
 /* Home */
+.navbar{
+  background-color: black;
+}
 
 .home{
     display: flex;
