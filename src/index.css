@@ -187,12 +187,12 @@ form-control {
   font-size: 350%;
   margin-left: 2%;
   text-decoration: underline;
-  color: orange;
+  color: white;
   font-weight: 900;
 }
 .guide-list{
   margin-left: 5%;
-  color: black;
+  color: white;
   font-family: 'Playfair Display', cursive; 
   font-size: 150%;
   font-weight: bold;

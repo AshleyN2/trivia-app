@@ -4,7 +4,7 @@ const Guide = () => {
     return (
         <div className='guide' 
         style={{
-            backgroundImage: `url(https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80)`,
+            backgroundImage: `url(https://images.unsplash.com/photo-1494253109108-2e30c049369b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)`,
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
         }}>
