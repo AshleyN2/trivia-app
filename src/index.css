@@ -187,11 +187,11 @@ form-control {
   font-size: 250%;
   margin-left: 2%;
   text-decoration: underline;
-  color:goldenrod;
+  color:white;
 }
 .guide-list{
   margin-left: 5%;
-  color:goldenrod;
+  color: white;
   font-family: 'Playfair Display', cursive; 
   font-size: x-large;
   font-style: oblique;
